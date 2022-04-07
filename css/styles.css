@@ -15,10 +15,12 @@
   padding-bottom: 0px;
   font-size:30px;
   margin-top: 0px;
+  text-decoration: underline;
+
 }
 
 .header{
-  
+
   background:#14171a;
   margin:0;
   padding:0;
@@ -28,37 +30,6 @@
   outline-width: 2px;
   border-radius: 0 0 10px 10px;
   height:100px;
-}
-
-@-webkit-keyframes scroll {
-    0% {
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
-    100% {
-        -webkit-transform: translate(-100%, 0);
-        transform: translate(-100%, 0)
-    }
-}
-
-@-moz-keyframes scroll {
-    0% {
-        -moz-transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
-    100% {
-        -moz-transform: translate(-100%, 0);
-        transform: translate(-100%, 0)
-    }
-}
-
-@keyframes scroll {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0)
-    }
 }
 
 .img {
